@@ -22,13 +22,11 @@
 
 > **Warning:** These dotfiles are tailored for my workflow. Review before using!
 
-
 ### 1. Clone the repo
 
 ```zsh
 git clone https://github.com/MisterMeherab/dotfiles ~/.dotfiles
 ```
-
 
 ### 2. Run the setup script (if available)
 
@@ -37,7 +35,7 @@ cd ~/.dotfiles
 ./install.sh
 ```
 
-
+Or manually symlink configs:
 
 ### Using GNU Stow (Recommended)
 
@@ -52,12 +50,10 @@ stow wezterm
 # ...other configs
 ```
 
-
 ### 3. Install dependencies
 
 - Hyprland, Zsh, Neovim, WezTerm, Starship, Fzf, Tmux, Bat, Ripgrep, LSD, Nerd Fonts
 - Use your distro's package manager (e.g., `pacman`, `apt`, `dnf`)
-
 
 ## Screenshots
 
